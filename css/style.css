@@ -1,0 +1,272 @@
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("Gilroy-Bold.ttf") ;
+}
+
+@font-face {
+	font-family: Gilroy-Medium;
+  src: url("Gilroy-Medium.ttf");
+}
+
+
+.header-con {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 33px;
+	padding-bottom: 30px;
+	border-bottom-style: solid;
+	border-bottom-color: #828282;
+	border-bottom-width: 1px;
+}
+
+.header-pop {
+	font-family: Gilroy-Bold, sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #828282;
+}
+
+.header-pop span {
+	color: black;
+}
+
+.namebox {
+	font-family: Gilroy-Bold, sans-serif;
+	font-size: 48px;
+	line-height: 1.25;
+}
+
+.upperbox {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.mediumbox {
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+}
+
+.introimagebox img{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.aboutpage {
+	background-color: #F6F6F6;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.abouttitle {
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+	padding-top: 120px;
+	margin-bottom: 18px;
+}
+
+.abouttext {
+	font-family: Gilroy-Medium;
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+
+.aboutbox {
+	padding-bottom: 100px;
+}
+
+.skillsboxes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skillsbox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: auto;
+	text-align: center;
+	font-family: Gilroy-Bold;
+	font-size: 20px;
+	color:#828282;
+;
+
+}
+
+.skilimg img {
+	padding-bottom: 28px;
+	width: 120%;
+	padding-right: 20px;
+}
+
+
+.skillstitle {
+	text-align: center;
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+	margin-top: 90px;
+}
+
+.skillsprompt {
+	text-align: center;
+	font-family: Gilroy-Medium;
+	font-size: 22px;
+	margin-top: 70px;
+	margin-bottom: 90px;
+}
+
+.skillsimg img {
+	width: 120%;
+	padding-bottom: 30px;
+}
+
+.skillsimg {
+	padding-right: 10px;
+}
+
+.figma {
+	padding-bottom: 28px;
+}
+
+.starimg {
+	padding-top: 41px;
+	width: 500%;
+	height: auto;
+}
+
+.skillsboxes {
+	padding-bottom: 100px;
+}
+
+.portfolio {
+	background-color: #F6F6F6;
+}
+
+.port-title {
+	padding-top: 120px;
+	margin-bottom: 50px;
+	font-family: Gilroy-Bold;
+	font-size: 40px;
+	text-align: center;
+}
+
+.port-image img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.port-name {
+	font-family: Gilroy-medium;
+	font-size: 20px;
+	text-decoration: underline;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.footer {
+	text-align: center;
+}
+.contacts-title {
+	padding-top: 120px;
+	font-family: Gilroy-Bold;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.contacts-subtitle {
+	font-family: Gilroy-Medium;
+	font-size: 20px;
+	padding-bottom: 30px;
+}
+
+.contacts-button button {
+	color: white;
+	background-color: black;
+	border-radius: 35px;
+	width: 180px;
+	height: 45px;
+	font-family: Gilroy-Bold;
+	font-size: 20px;
+}
+
+.contacts-links {
+	display: flex;
+	justify-content: center;
+	padding-top: 90px;
+}
+
+.link {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.contacts-hint {
+	font-size: 18px;
+	font-family: Gilroy-Medium;
+	padding-bottom: 120px;
+	padding-top: 50px;
+	color: #828282;
+;
+}
+.borgatitle {
+	font-family: Gilroy-Bold;
+	font-size: 40px;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+.borgabox {
+align-content: center;
+
+}
+
+.borgabox img {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-radius: 20px	;
+	border-width: 1px;
+	box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+	padding: 10px 10px;
+}
+
+.borgaprice {
+	font-family: Gilroy-Bold;
+	font-size: 80px;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.mainboxes {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+@media(max-width: 700px) {
+	.skillsboxes {
+		display: block;
+	}
+
+	.skillsbox {
+		width: auto;
+		padding-bottom: 40px;
+	}
+
+	.skillsimg {
+		padding-left: 40px;
+	}
+
+	.figma {
+		padding-bottom: 10px;
+	}
+}
